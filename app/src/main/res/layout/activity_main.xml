@@ -8,7 +8,26 @@
 
     <TextView
         android:id="@+id/Birthday_TextView"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Happy Birthday Frosty!" />
+
+    <TextView
+        android:id="@+id/From_TextView"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From: Wyatt" />
+
+    <ImageView
+        android:id="@+id/Background_ImageView"
+        android:src="@drawable/androidparty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </RelativeLayout>
