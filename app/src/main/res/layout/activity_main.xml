@@ -16,8 +16,9 @@
     <TextView
         android:id="@+id/Birthday_TextView"
         android:textColor="@color/colorAccent"
+        android:padding="20dp"
         android:textSize="36sp"
-        android:fontFamily="sans-serif-black"
+        android:fontFamily="sans-serif-light"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Happy Birthday Frosty!" />
@@ -25,6 +26,7 @@
     <TextView
         android:id="@+id/From_TextView"
         android:textSize="36sp"
+        android:padding="20dp"
         android:fontFamily="sans-serif-black"
         android:textColor="@color/colorPrimaryDark"
         android:layout_alignParentRight="true"
