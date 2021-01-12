@@ -6,8 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/Background_ImageView"
+        android:scaleType="centerCrop"
+        android:src="@drawable/androidparty"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
     <TextView
         android:id="@+id/Birthday_TextView"
+        android:textColor="@color/colorAccent"
         android:textSize="36sp"
         android:fontFamily="sans-serif-black"
         android:layout_width="wrap_content"
@@ -25,9 +33,5 @@
         android:layout_height="wrap_content"
         android:text="From: Wyatt" />
 
-    <ImageView
-        android:id="@+id/Background_ImageView"
-        android:src="@drawable/androidparty"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+
 </RelativeLayout>
